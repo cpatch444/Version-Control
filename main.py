@@ -3,7 +3,7 @@ def menu():
 
 
 # Alejandro Fluitt
-def encode(password):
+def Encode(password):
     new_password = ''
     num = 0
     for i in password:
@@ -29,7 +29,7 @@ if __name__ == '__main__':
         if user_input == '1':
             password = input('Please enter your password to encode: ')
             print('Your password has been encoded and stored!')
-            passwprd = encode(password)
+            passwprd = Encode(password)
         elif user_input == '2':
             print(f'The encoded passworf is {password}, and the original passworf is {decode(password)}')
         elif user_input == '3':
